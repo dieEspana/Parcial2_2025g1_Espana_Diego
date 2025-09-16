@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - CoderHub.run</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html"><i class="fas fa-code me-2"></i>CoderHub.run</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="hero-section-inner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h1 class="display-4 fw-bold mb-4">Nuestro Portafolio</h1>
+                    <p class="lead">Descubre algunos de nuestros proyectos más destacados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Content -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center">
+                    <h2 class="mb-4">Proyectos <span class="text-accent">Destacados</span></h2>
+                    <p class="lead text-secondary">Hemos trabajado con diversas empresas y startups desarrollando soluciones innovadoras</p>
+                </div>
+            </div>
+
+            <!-- Filtros -->
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-primary active portfolio-filter" data-filter="all">Todos</button>
+                        <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="web">Web</button>
+                        <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="mobile">Móvil</button>
+                        <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="ecommerce">E-commerce</button>
+                        <button type="button" class="btn btn-outline-primary portfolio-filter" data-filter="dashboard">Dashboard</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="web ecommerce">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="E-commerce Platform" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>E-commerce Platform</h4>
+                                <p class="text-center">Plataforma de comercio electrónico</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>E-commerce Platform</h4>
+                            <p class="text-secondary">Plataforma de comercio electrónico con integración de pasarelas de pago, carrito de compras y panel de administración.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Node.js</span>
+                                <span class="badge bg-primary">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="mobile">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Health App" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Health App</h4>
+                                <p class="text-center">Aplicación de salud y bienestar</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Health App</h4>
+                            <p class="text-secondary">Aplicación móvil para seguimiento de salud y bienestar con recordatorios de medicamentos y monitoreo de actividad física.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">React Native</span>
+                                <span class="badge bg-primary">Firebase</span>
+                                <span class="badge bg-primary">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="web dashboard">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Financial Dashboard" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Financial Dashboard</h4>
+                                <p class="text-center">Panel de control financiero</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Financial Dashboard</h4>
+                            <p class="text-secondary">Panel de control para visualización de datos financieros con gráficos interactivos y reportes personalizables.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Angular</span>
+                                <span class="badge bg-primary">TypeScript</span>
+                                <span class="badge bg-primary">D3.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="web">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Educational Platform" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Educational Platform</h4>
+                                <p class="text-center">Plataforma educativa online</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Educational Platform</h4>
+                            <p class="text-secondary">Sistema de gestión de aprendizaje online con cursos, evaluaciones y seguimiento del progreso de los estudiantes.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Vue.js</span>
+                                <span class="badge bg-primary">Laravel</span>
+                                <span class="badge bg-primary">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="mobile">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Real Estate App" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>Real Estate App</h4>
+                                <p class="text-center">Aplicación de bienes raíces</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Real Estate App</h4>
+                            <p class="text-secondary">Aplicación para búsqueda y gestión de propiedades inmobiliarias con filtros avanzados y sistema de citas.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Flutter</span>
+                                <span class="badge bg-primary">Node.js</span>
+                                <span class="badge bg-primary">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card portfolio-card h-100 animate__animated interactive-element" data-animation="animate__fadeInUp" data-category="web dashboard">
+                        <div class="portfolio-item">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="CRM System" class="card-img-top portfolio-img">
+                            <div class="portfolio-overlay">
+                                <h4>CRM System</h4>
+                                <p class="text-center">Sistema de gestión de clientes</p>
+                                <a href="#" class="btn btn-sm btn-primary mt-2 wave-effect">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>CRM System</h4>
+                            <p class="text-secondary">Sistema de gestión de relaciones con clientes con seguimiento de leads, pipeline de ventas y automatizaciones.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-primary">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-dark-custom">
+        <div class="container py-5">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 interactive-element">
+                        <div class="card-body text-center p-4">
+                            <div class="testimonial-img mb-3">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client" class="rounded-circle">
+                            </div>
+                            <h5>Laura Martínez</h5>
+                            <p class="text-accent">CEO, TechSolutions</p>
+                            <p class="text-secondary">"CoderHub.run desarrolló nuestra plataforma de e-commerce y los resultados han sido excepcionales. Profesionales y comprometidos con el proyecto."</p>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 interactive-element">
+                        <div class="card-body text-center p-4">
+                            <div class="testimonial-img mb-3">
+                                <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Client" class="rounded-circle">
+                            </div>
+                            <h5>Carlos Ruiz</h5>
+                            <p class="text-accent">Director, HealthPlus</p>
+                            <p class="text-secondary">"La aplicación móvil que desarrollaron para nosotros ha superado todas las expectativas. Gran atención al detalle y entrega puntual."</p>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 interactive-element">
+                        <div class="card-body text-center p-4">
+                            <div class="testimonial-img mb-3">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Client" class="rounded-circle">
+                            </div>
+                            <h5>Ana González</h5>
+                            <p class="text-accent">Gerente, EduTech</p>
+                            <p class="text-secondary">"El sistema de gestión de aprendizaje que implementaron ha transformado nuestra forma de enseñar. Altamente recomendados."</p>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container py-5 text-center">
+            <h2 class="mb-4">¿Te gustaría ver tu proyecto aquí?</h2>
+            <p class="lead mb-5">Trabajemos juntos para hacer realidad tu idea. Contáctanos y comencemos a construir algo increíble.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg wave-effect">Iniciar proyecto</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4><i class="fas fa-code me-2 text-accent"></i>CoderHub.run</h4>
+                    <p class="text-secondary">Transformamos ideas en soluciones digitales innovadoras y de alta calidad.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-secondary text-decoration-none link-hover-effect">Inicio</a></li>
+                        <li><a href="about.html" class="text-secondary text-decoration-none link-hover-effect">Nosotros</a></li>
+                        <li><a href="services.html" class="text-secondary text-decoration-none link-hover-effect">Servicios</a></li>
+                        <li><a href="portfolio.html" class="text-secondary text-decoration-none link-hover-effect">Portafolio</a></li>
+                        <li><a href="contact.html" class="text-secondary text-decoration-none link-hover-effect">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Conecta con Nosotros</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1AAFnekzNV/?mibextid=wwXIfr" class="btn-hover-effect"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn-hover-effect"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/diegoespana19?igsh=aTZjNXQwbTVteTlh&utm_source=qr" class="btn-hover-effect"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn-hover-effect"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn-hover-effect"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <p class="mb-1"><i class="fas fa-map-marker-alt me-2 text-accent"></i> Av. Principal #123, Ciudad</p>
+                        <p class="mb-1"><i class="fas fa-phone me-2 text-accent"></i> +57 3208616421</p>
+                        <p class="mb-0"><i class="fas fa-envelope me-2 text-accent"></i> info@coderhub.run</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center">
+                <p class="text-secondary">&copy; 2025 CoderHub.run. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./Js/javaScript.js"></script>
+</body>
+</html>
